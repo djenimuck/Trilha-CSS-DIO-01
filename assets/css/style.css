@@ -4,6 +4,10 @@ body {
     background-color: black;
 }
 
+p {
+    color: white;
+}
+
 h2 {
     font-size: 2rem;
     color: #33A8DB;
@@ -13,9 +17,6 @@ h2 {
     margin-bottom: 24px;
   }
 
-  p {
-    color: white;
-  }
   
   section {
     margin: 100px auto;
@@ -29,7 +30,12 @@ h2 {
     padding-top: 60px;
     border-bottom: 1px solid #33A8DB80;
   }
-  
+
+  .banner p {
+    font-size: 1.25rem;
+    margin: 16px 0 24px;
+  }
+
   .banner .banner-content {
     color: white;
     width: 600px;
@@ -47,10 +53,6 @@ h2 {
     -webkit-background-clip: text;
   }
   
-  .banner p {
-    font-size: 1.25rem;
-    margin: 16px 0 24px;
-  }
   
   .banner .logo {
     background-color: rgba(0, 0, 0, .2);
